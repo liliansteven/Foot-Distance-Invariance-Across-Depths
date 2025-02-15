@@ -11,7 +11,7 @@ This method calculates the 3D Euclidean distance between the left and right feet
 
 ### **Mathematical Equations**
 
-![Sample Image](images\1.png)
+![Sample Image](\images\1.png)
 
 ---
 
