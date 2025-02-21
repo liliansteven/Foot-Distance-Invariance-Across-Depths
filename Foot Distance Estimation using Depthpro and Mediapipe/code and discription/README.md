@@ -11,7 +11,7 @@ This method calculates the 3D Euclidean distance between the left and right feet
 
 ### **Mathematical Equations**
 
-![Sample Image](\images\1.png)
+![Sample Image](images/1.png)
 
 ---
 
@@ -20,7 +20,7 @@ This method calculates the 3D Euclidean distance between the left and right feet
 This method simplifies the calculation by avoiding explicit calibration of intrinsic parameters. It assumes the camera has a normalized field of view and uses the depth directly to scale the 2D coordinates.
 
 ### **Mathematical Equations**
-![Sample Image](images\2.png)
+![Sample Image](images/2.png)
 
 ---
 
@@ -29,7 +29,7 @@ This method simplifies the calculation by avoiding explicit calibration of intri
 This method uses an estimated focal length provided by the DepthPro model to calculate the 3D coordinates of the feet.
 
 ### **Mathematical Equations**
-![Sample Image](images\3.png)
+![Sample Image](images/3.png)
 
 ---
 
@@ -38,15 +38,15 @@ This method uses an estimated focal length provided by the DepthPro model to cal
 This method estimates the focal length based on the shoulder width in pixels and its real-world size, then uses this focal length to calculate the 3D coordinates of the feet.
 
 ### **Steps for Focal Length Estimation**
-![Sample Image](images\4.png)
+![Sample Image](images/4.png)
 
-![Sample Image](images\5.png)
+![Sample Image](images/5.png)
 
 
 ---
 
 ## Summary Table of Methods
-![Sample Image](images\11.png)
+![Sample Image](images/11.png)
 
 
 Each method provides a different approach to calculating the foot distance, leveraging either explicit or implicit assumptions about the camera's intrinsic parameters.
