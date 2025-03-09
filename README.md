@@ -6,7 +6,7 @@ This detailed descriptions and mathematical equations for the four methods used 
 
 ## Method 1: Pinhole Camera Model
 
-This method calculates the 3D Euclidean distance between the left and right feet using the pinhole camera model. The pinhole camera model assumes that the intrinsic parameters (focal length and principal point) are known or can be estimated.
+This method acalculates the 3D Euclidean distance between the left and right feet using the pinhole camera model. The pinhole camera model assumes that the intrinsic parameters (focal length and principal point) are known or can be estimated.
 
 ### **Mathematical Equations**
 
