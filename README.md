@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project estimates the distance between feet in videos using **DepthPro** (for depth estimation) and **MediaPipe** Pose (for pose detection). It implements **four** advanced methods to measure foot distance based on different 3D coordinate extraction techniques and estimated focal length. The project processes videos in real-time, overlays distance metrics on frames, and outputs annotated videos.
+This project estimates the distance between feet in videos using **DepthPro** (for depth estimation) and **MediaPipe** Pose (for pose detection). comparing between **four** advanced methods to measure foot distance based on different 3D coordinate extraction techniques and estimated focal length. The project processes videos in real-time, overlays distance metrics on frames, and outputs annotated videos.
 
 
 ## Features
