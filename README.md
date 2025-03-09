@@ -1,7 +1,6 @@
-
 # Documentation of Foot Distance Calculation Methods
 
-This document provides detailed descriptions and mathematical equations for the four methods used to calculate foot distance using the DepthPro model and Mediapipe.
+This detailed descriptions and mathematical equations for the four methods used to calculate foot distance using the DepthPro model and Mediapipe.
 
 ---
 

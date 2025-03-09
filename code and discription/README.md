@@ -1,12 +1,12 @@
-# Foot Distance Estimation using DepthPro and MediaPipe 
+Foot Distance Estimation using DepthPro for depth estimation and MediaPipe for pose detection
 
 ## Overview
 
-This project estimates foot distance in videos using depth estimation models and Mediapipe Pose. It implements multiple methods to measure foot distance based on different 3D coordinate extraction techniques and estimated focal length.
+This project estimates foot distance in videos using DepthPro model for depth estimation and Mediapipe for Pose detection. It implements multiple methods to measure foot distance based on different 3D coordinate extraction techniques and estimated focal length.
 
 ## Features
 
-- Uses `DepthPro-hf` for depth estimation.
+- Uses `DepthPro` for depth estimation.
 - Utilizes `Mediapipe Pose` for pose landmark detection.
 - Computes foot distance using multiple methods:
   1. **Pinhole Camera Model**
@@ -29,7 +29,7 @@ pip install mediapipe opencv-python numpy torch pillow
 ### Running the Script
 
 ```python
-video_path = '/content/Kirolos_video.mp4'  # Replace with your video path
+video_path = '/content/input_video.mp4'  # Replace with your video path
 output_path = '/content/output.mp4'  # Define output file path
 process_video(video_path, output_path)
 ```
@@ -49,15 +49,10 @@ process_video(video_path, output_path)
 ## Output
 
 - The script generates a processed video where distances calculated using different methods are displayed on each frame.
-- please check the final output [here](https://drive.google.com/file/d/1QfNv_e-6B-iNn_6mpOa57fl5pVIMpXTO/view?usp=sharing)
-
-## Notes
-
-- Ensure that the input video is well-lit and contains a clear view of the subject's feet for accurate results.
-- Depth estimation quality depends on the performance of `DepthPro-hf`.
 
 ## References
 
 - [Hugging Face Transformers](https://github.com/huggingface/transformers)
 - [Mediapipe Pose](https://developers.google.com/mediapipe/solutions/vision/pose)
 - [DepthPro-hf](https://huggingface.co/apple/DepthPro-hf)
+
